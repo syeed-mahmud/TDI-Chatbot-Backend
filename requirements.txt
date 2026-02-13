@@ -1,0 +1,17 @@
+chromadb==0.4.22
+sentence-transformers==2.3.1
+PyPDF2==3.0.1
+torch
+numpy<2.0
+
+# LangChain and LLM dependencies
+langchain
+langchain-community
+langchain-groq
+groq
+
+# API and utilities (reusing existing from chromadb)
+# fastapi - already installed
+# uvicorn - already installed  
+# pydantic - already installed
+# python-dotenv - already installed
